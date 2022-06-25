@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+#inicio {
+    display: flex;
+    
+justify-content: space-around;
+column-span: 0;
+
+background-color: rgb(46, 44, 44);
+}
+nav codologo{
+    text-align:left;
+}
+
+.container{
+     width: 100%;
+     max width:12px;
+     height:430px;
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+     margin:auto;
+
+}
+.container .card {
+    width: 430px;
+    height: 100px;
+   
+   
+    overflow-block: hidden;
+    margin: 20px;
+   
+   float: left;
+
+}
